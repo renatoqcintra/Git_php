@@ -13,7 +13,7 @@ if($freq<75){
     if($med>=6){
         echo "Aprovado";
     }else{
-        $notarec=readline("Digite a nota da recuperação: ");
+        $notarec=readline("Digite a nota da recuperação!: ");
         $medfinal=($med+$notarec);
         if($medfinal>5){
             echo "Aprovado na recuperação";
