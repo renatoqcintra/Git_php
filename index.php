@@ -18,7 +18,7 @@ if($freq<75){
         if($medfinal>5){
             echo "Aprovado na recuperação";
         }else{
-            echo "Reprovado, nos vemos ano que vem";
+            echo "Reprovado, nos vemos ano que vem!";
         }
     }
 }
